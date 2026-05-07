@@ -1,0 +1,73 @@
+.home-page-cantainer {
+  background-color: rgba(0 14 22 / .7);
+  height: 100vh;
+
+  .home-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title-wrapper{
+      display: flex;
+      align-items: center;
+      height:40px;
+      border: 1px solid white;
+      border-radius: 0 10px 10px 0;
+      margin: 50px;
+      .nav-link{
+        display: flex;
+        align-items: center;
+        text-decoration:none;
+        .habit-spark-title{
+          padding:0 10px;
+          color: rgb(71, 32, 161);
+        }
+      }
+    }
+    
+    .user-wrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      .user-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color:rgb(71, 32, 161);
+        color: white;
+      }
+      .user-name{
+        color:white;
+      }
+    }
+
+    .midd-section-wrapper{
+      display: flex;
+      justify-content: center;
+
+
+    .habits-wrapper,
+    .add-habit-wrapper{
+      display: flex;
+      border: solid 1px rgb(71, 32, 161);
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      width: 80px;
+      display: flex;
+      background-color:rgb(71, 32, 161);
+      opacity: .7;
+      .habits,
+      .add-habit-title{
+        color:rgb(255, 255, 255)
+      }
+    }
+  }
+  }
+}

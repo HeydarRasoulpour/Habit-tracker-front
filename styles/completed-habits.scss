@@ -1,0 +1,53 @@
+.completed-habits-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
+  .habit-card-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    position: relative;
+    top: 30px;
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(251, 181, 181, 0.4);
+
+    .habit-image {
+      width: 200px;
+      padding: 10px;
+    }
+    .habit-title {
+      font-size: 30px;
+      color: rgb(6, 0, 0);
+      text-shadow: 0 4px 6px rgba(45, 2, 2, 0.4);
+    }
+    .habit-description {
+      font-size: 17px;
+      color: rgb(7, 0, 0);
+      text-shadow: 0 4px 6px rgba(45, 2, 2, 0.4);
+    }
+    .days {
+      font-size: 15px;
+      color: rgb(5, 0, 0);
+
+      text-shadow: 0 4px 6px rgba(45, 2, 2, 0.4);
+    }
+    .delete-habit-button {
+      border-radius: 8px;
+      width: 70px;
+      height: 20px;
+      opacity: 0.6;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+      border: none;
+      position: absolute;
+      right: 8px;
+      top: 10px;
+    }
+  }
+}

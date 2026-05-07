@@ -1,0 +1,30 @@
+.upload-image-container {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #eae1bb;
+  border-radius: 10px;
+  width: 450px;
+  height: 73vh;
+  .upload-image-label {
+    font-size: 20px;
+  }
+  .upload-image {
+    width: 200px;
+    height: 35px;
+    background-color: #f3c760;
+
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    border: none;
+  }
+  .preview-img {
+    display: flex;
+    width: 400px;
+    padding-top: 20px;
+    margin: auto;
+  }
+}

@@ -1,0 +1,82 @@
+.habits-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+
+  .habits-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    .habit-card{
+      opacity: .9;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      position: relative;
+      border-radius: 10px;
+      width: 30%;
+      height: 500px;
+      box-shadow: 0 4px 6px rgba(251, 181, 181, 0.4);
+    .habits-info-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      font-size: 20px;
+      color: rgb(6, 0, 0);
+      text-shadow: 0 4px 6px rgba(45, 2, 2, 0.4);
+      padding-left: 30px;
+    }
+    .habit-image {
+      width: 200px;
+      padding: 10px;
+      border-radius: 20px;
+    }
+    .habit-title {
+      font-size: 30px;
+      color: rgb(6, 0, 0);
+      text-shadow: 0 4px 6px rgba(45, 2, 2, 0.4);
+    }
+    .habit-description {
+      font-size: 17px;
+      color: rgb(7, 0, 0);
+      text-shadow: 0 4px 6px rgba(45, 2, 2, 0.4);
+    }
+    .days {
+      font-size: 15px;
+      color: rgb(5, 0, 0);
+
+      text-shadow: 0 4px 6px rgba(45, 2, 2, 0.4);
+    }
+  }
+  }
+  .complete-habit-button {
+    border-radius: 8px;
+    width: 70px;
+    height: 20px;
+    opacity: 0.6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    border: none;
+
+    position: absolute;
+    right: 8px;
+    top: 35px;
+  }
+  .delete-habit-button {
+    border-radius: 8px;
+    width: 70px;
+    height: 20px;
+    opacity: 0.6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    border: none;
+    position: absolute;
+    right: 8px;
+    top: 10px;
+  }
+}

@@ -1,0 +1,190 @@
+.new-habit-container {
+  position: relative;
+  left: 10%;
+  top: 30px;
+  width: 70%;
+  height: 93vh;
+  background-color: rgba(4, 23, 40, 0.4);
+  backdrop-filter: blur(4px);
+  // box-shadow: 0 2px 6px rgba(250, 250, 247, 0.3);
+  border-radius: 20px;
+  margin: 0 auto;
+  border-top: none;
+  border-left: 1px solid rgba(13, 154, 230, 0.8);
+  border-right: none;
+  border-bottom: none;
+
+  
+  .new-habit-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    width: 100%;
+
+    .form-info-wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      width: 400px;
+      gap: 20px;
+
+      .title-input{
+        height: 25px;
+        width: 178px;
+      }
+      input, textarea{
+        border-top: 1px solid rgba(13, 154, 230, 0.8);
+        background-color: rgba(3, 33, 43, 0.3);
+        backdrop-filter: blur(3px);
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        padding-left: 10px;
+        border-radius: 10px;
+        
+        
+      }
+      input::placeholder {
+        color: #9cb3d9;
+        font-style: italic;
+        font-size: 11px;
+        
+        opacity: 1;
+      }
+      textarea::placeholder {
+        color: #9cb3d9;
+        font-size: 11px;
+        font-style: italic;
+        opacity: 1;
+      }
+  
+      .select-day-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #9cb3d9;
+  
+        .days-option{
+          display: flex;
+          align-items: center;
+          gap: 3px;
+          input{
+            width: 15px;
+            opacity: .6;
+          }
+        }
+      }
+  
+      .date-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        .date-label{
+          padding-right: 10px;
+          color: #9cb3d9;
+          
+        }
+        .date-label{
+          color: #9cb3d9;
+  
+        }
+  
+        input{
+          height: 25px;
+          color: #9cb3d9;
+          font-style: italic;
+          border-radius: 10px;
+          opacity: 1;
+          border: none;
+        }
+      }
+  
+      .color-wrapper{
+        display: flex;
+        gap:10px;
+        align-items: center;
+
+        label{
+          color: #9cb3d9;
+        }
+        .color-input-wrapper{
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          overflow: hidden;
+          cursor: pointer;
+          .color-input{
+            width: 40px;
+            height: 40px;
+            border: none;
+            margin-left: -13px;
+            margin-top: -7px;
+            cursor: pointer;
+          }}
+      }
+    }
+
+    .upload-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: rgba(3, 33, 43, 0.3);
+      backdrop-filter: blur(3px);
+      border-top: 2px solid rgba(13, 154, 230, 0.8);
+      border-radius: 10px;
+      width: 400px;
+      height: 73vh;
+      .upload-image-label {
+        font-size: 20px;
+        color: #9cb3d9;
+      }
+      .upload-button {
+        display: inline-block;
+        height: 30px;
+        width: 150px;
+        background-color: rgba(4, 23, 29, 0.9);
+        margin-top: 20px;
+        border-radius: 10px;
+        color: #9cb3d9;
+        border: 1px solid rgba(13, 154, 230, 0.8);
+        cursor: pointer;
+        font-size: 14px;
+        padding-top: 10px;
+        text-align: center;
+      }
+      .upload-image {
+        width: 300px;
+       
+        // background-color: rgba(244, 247, 248, 0.1);
+        // background-color: rgba(13, 154, 230, 0.5);
+        border-radius: 10px;
+        
+        padding-top: 50px;
+        border: none;
+      }
+      .preview-img {
+        display: flex;
+        width: 400px;
+        padding-top: 20px;
+        margin: auto;
+      }
+    }
+
+    .submit-button {
+      height: 30px;
+      width: 150px;
+      background-color: rgba(4, 23, 29, 0.8);
+      margin: 20px;
+      border-radius: 10px;
+      color: #9cb3d9;
+    
+      border: 1px solid rgba(13, 154, 230, 0.8);
+    }
+  }
+}
