@@ -8,6 +8,7 @@ export default function PrivateRoute({ children }) {
   const location = useLocation();
 
   if (loading) return null;
+  // if (loading) return null;
 
   if (!token) {
     return <Navigate to="/login" replace />;
