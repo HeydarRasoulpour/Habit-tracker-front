@@ -1,4 +1,5 @@
-const API_BASE = "http://localhost:8086";
+// const API_BASE = "http://localhost:8086";
+const API_BASE = "https://habit-tracker-backend.onrender.com"
 
 const handleResponse = async (res, errorMsg) => {
   if (!res.ok) {
