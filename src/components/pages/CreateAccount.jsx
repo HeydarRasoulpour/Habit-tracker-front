@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { registerUser } from "@/service/userService";
+
 import { useNavigate, NavLink } from "react-router-dom";
+import { registerUser } from "../service/userService";
 
 const CreateAccount = () => {
   const [formData, setFormData] = useState({
