@@ -1,5 +1,5 @@
 // const API_BASE = "http://localhost:8086";
-const API_BASE = "https://habit-tracker-backend.onrender.com"
+const API_BASE = "https://habit-tracker-backend-1u47.onrender.com"
 
 export const loginUser = async (data) => {
   const res = await fetch(`${API_BASE}/user/auth`, {
