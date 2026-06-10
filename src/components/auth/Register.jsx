@@ -11,7 +11,13 @@ export default function Register() {
     e.preventDefault();
 
     try {
-      await registerUser({ email, password });
+      await registerUser({ 
+        first_name: email.split("@")[0],
+  last_name: "user",
+  username: email.split("@")[0],
+  email,
+  password
+       });
       alert("Account created! You can log in.");
     } catch (err) {
       setError(err.message);
