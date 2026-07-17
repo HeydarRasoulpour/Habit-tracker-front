@@ -6,8 +6,6 @@ import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 import { loginUser } from "../service/authService";
 import { useAuth } from "../context/AuthContext";
 
-import BackGroundImage from "../../assets/background-green-book.png";
-
 export default function Login() {
   const { login, loading } = useAuth();
   const [email, setEmail] = useState("");
@@ -39,7 +37,6 @@ export default function Login() {
 
   return (
     <div className="login-wrapper">
-      {/* <img src={BackGroundImage} className="login-img"/> */}
     <form onSubmit={handleSubmit}>
       <div className="login-container">
         <div className="message-wrapper">

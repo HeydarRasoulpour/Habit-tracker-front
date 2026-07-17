@@ -29,10 +29,6 @@ export default function Habits() {
     />
   )}
 
-  const selectedHabit = (e)=> e.target.value;
-  console.log(selectedHabit);
- 
-
   const handleCompleteHabit = async (habitId) => {
     const habitToComplete = habits.find((h) => h.id === habitId);
     const updatedHabits = habits.filter((h) => h.id !== habitId);
@@ -68,7 +64,7 @@ export default function Habits() {
                 <span>{habit.title}</span>
                 <span>{habit.description}</span>
                 <span>{habit.frequency_per_week}</span>
-                <button onClick={() => handleDeleteHabit(habit.habit_id)}>
+                <button onClick={() => handleCompleteHabit(habit.habit_id)}>
                   Completed
                 </button>
               </div>
