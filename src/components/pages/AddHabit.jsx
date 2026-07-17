@@ -101,7 +101,7 @@ export default function AddHabit() {
           <textarea
             name="description"
             placeholder="Habit Description"
-            rows={10}
+            rows={23}
             cols={20}
             value={habitForm.description}
             onChange={handleChange}
